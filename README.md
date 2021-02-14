@@ -11,10 +11,9 @@
     * Technical Writers are required to communicate across disciplines (i.e. engineers, compliance, other SMES) regarding the requested designs. Because discord
     allows for real-time communication that persists in chats (unless deleted by the original poster of a piece of communication), it is **preferred** over 
     more legacy tools.
-    * To reiterate, Users of the guides (whether developers or customers),will have access to **the most updated changes**, which ultimately speeds up productivity for
+    * To reiterate, Users of the guides (whether developers or customers), will have access to **the most updated changes**, which ultimately speeds up productivity for
     everyone.
-    * Because the Discord channel of communication was initially launched on **May 13th 2015**, my use of such an application demonstrates my support for cutting edge technology and 
-    the startup culture.
+    * Because the Discord channel of communication was initially launched on **May 13th 2015**, my use of such an application demonstrates my support for **modern** technology.
  
   
  * If you are interested in me providing a technical write-up of additional advantages that are **not** outlined above, please feel free to contact me via the submission of a feature request.
