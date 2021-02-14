@@ -9,7 +9,7 @@ creating a Firefox User Account.
 
 ## Tools Used:
 - **Discord** - to document the procedural steps.
-- **Firefox** - is the relevant browser for this activity.
+- **Firefox** - the relevant browser required for this activity.
 - **Ubuntu's gNome** tool - to screenshot the relevant visuals.
 - **Kolourpaint** -  to mark up / modify screenshots where appropriate.
 - **Ubuntu Terminal** - to download the required/accessory applications to complete tasks.
