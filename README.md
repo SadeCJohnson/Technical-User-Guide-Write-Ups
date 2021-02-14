@@ -13,7 +13,7 @@
     more legacy tools.
     * To reiterate, Users of the guides (whether developers or customers),will have access to **the most updated changes**, which ultimately speeds up productivity for
     everyone.
-    ** Because the Discord channel was initially launched on **May 13th 2015**, my use of such an application demonstrates my support for cutting edge technology and 
+    * Because the Discord channel of communication was initially launched on **May 13th 2015**, my use of such an application demonstrates my support for cutting edge technology and 
     the startup culture.
  
   
