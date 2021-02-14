@@ -16,6 +16,11 @@ creating a Firefox User Account.
 - **Ubuntu Terminal** - To download the required/accessory applications to complete tasks.
 - **UMLet** - To create the Unified Modeling Language (UML) diagram.
 
+## Unified Modeling Language (UML) diagram(s):
+
+![alt text](/User-Accounts/visual-resources/uml-diagrams/use-case-diagram/Use-Case-UML.png "Use-Case-UML")
+
+
 ## Future Implementation:
 * Providing a   UML or similar diagram to help readers visualize the concepts captured in the written tutorial.
 * A separate document that explains the backend (or developer's perspective) of creating a user account.
