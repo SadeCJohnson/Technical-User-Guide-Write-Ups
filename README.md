@@ -17,7 +17,7 @@
     the startup culture.
  
   
- * If you are interested in me providing a technical write-up of the advantages, please feel free to contact me via the submission of a feature request.
+ * If you are interested in me providing a technical write-up of additional advantages that are **not** outlined above, please feel free to contact me via the submission of a feature request.
  
  
  # Will API Guides Be Documented Via Discord as Well?
