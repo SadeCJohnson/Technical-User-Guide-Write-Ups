@@ -18,6 +18,8 @@ creating a Firefox User Account.
 
 ## Unified Modeling Language (UML) diagram(s):
 
+### Use Case UML:
+
 ![alt text](/User-Accounts/visual-resources/uml-diagrams/use-case-diagram/Use-Case-UML.png "Use-Case-UML")
 
 
