@@ -24,6 +24,6 @@ creating a Firefox User Account.
 
 
 ## Future Implementation:
-* Providing a   UML or similar diagram to help readers visualize the concepts captured in the written tutorial.
+* Provide a UML or similar diagram to help readers visualize the concepts captured in the written tutorial.
 * A separate document that explains the backend (or developer's perspective) of creating a user account.
 In other words, an explanation of what happens **behind the scenes** will be provided.
