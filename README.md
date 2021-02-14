@@ -1,4 +1,4 @@
-# Technical-User-Guide-Write-Ups
+# Technical User Guide Write-Ups
 
 * The pupose of this repository is to provide links to topic specific discord channels that consist of my technical write-ups. 
 
