@@ -22,6 +22,6 @@
  
  # Will API Guides Be Documented Via Discord as Well?
  
- * No, more appropriate technical writing tools will be used to document the flow of APIS. However, the links to these documents will be cited in the topic
+ * No, more appropriate technical writing tools will be used to document the flow of APIs. However, the links to these documents will be cited in the topic
  specific discord channel where appropriate.
  
