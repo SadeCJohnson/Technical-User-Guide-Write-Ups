@@ -26,27 +26,39 @@ The tools required for setting up the developer workstation is <span style="colo
 
 
 ## Suggested High Level Integration Steps:
-
-**To start creating the Native XRP Ledger Wallet, we will need to work at the Apps & Services level.**
+#### Step 1: Start at the Apps & Services Level
+To start creating the Native XRP Ledger Wallet, we will need to work at the Apps & Services level.**
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
 
     
-#### A simple wallet object should look like the following:
+#### A wallet object should look like the following:
 - Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
 
-#### However, a wallet consists of other objects (depicted below):
-- Therefore, the supporting objects must also be created
+#### However, a wallet consists of other objects and methods (depicted below):
+- The supporting objects and method functionality must also be created
+
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-updated.png)
 
 
-####  Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
-- This step will set-up the endpoints that need to be in place
 
-  ```java
+#### Step 2: Transition to the **Middleware APIs** Level
+- Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
+
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/middleware-api-level.png "Middleware API Connections Happens Here")
+
+#### Important Notes:
+- Each endpoint will need to be mapped to a service that corresponds to the Ripple API (i.e. send transactions, receive transactions) - which connects to the XRP Ledger
+- The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint of the Ripple API, so the right response can be returned
+- This step will set up the endpoints that need to be in place
+
+#### Sample Code:
+
+```java
      import org.springframework.web.bind.annotation.GetMapping;
      import org.springframework.web.bind.annotation.RequestParam;
      import org.springframework.web.bind.annotation.RestController;
@@ -93,15 +105,11 @@ The tools required for setting up the developer workstation is <span style="colo
       */
       }
   }       
-#### Important Notes:      
-- Each endpoint will need to be mapped to a service that corresponds to the Ripple API (i.e. send transactions, receive transactions) - which connects to the XRP Leedger 
-- The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint of the Ripple API, so the right response can be returned
-
-![](/XRP-Ledger-Wallet-Documentation/resources/visuals/middleware-api-level.png "Middleware API Connections Happens Here")
+```
 
 
 
-### Other requirements:
+### Additional requirements:
 #### Infrastructure
 **[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to
 familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along
