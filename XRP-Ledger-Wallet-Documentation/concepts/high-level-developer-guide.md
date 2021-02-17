@@ -8,7 +8,7 @@ This document serves as a **suggested** high level plan for developing a **Nativ
 - Infrastructure Engineers
 
 ## Tools Required:
-The tools required for setting up the developer workstation is <span style="color:red;">**COMING SOON**</span>
+The tools required for setting up the developer workstation are <span style="color:red;">**COMING SOON**</span>
 
 ## Ripple's Software EcoSystem Tech Stack Representation:
 
@@ -17,8 +17,8 @@ The tools required for setting up the developer workstation is <span style="colo
 
 #### What does the above photo mean?
 **Here's one Translation:**
-- There are **applications/services** created 
-- These **applications/services** are configured to interact with **Middleware APIs** 
+- There are **applications/services** created
+- These **applications/services** are configured to interact with **Middleware APIs**
 - The **Middleware APIs** are configured to interact with the **Ripple API** (which works with Programming Libraries)
 - The **Ripple API** then makes the connections to the **XRP Ledger**, which interacts with the **servers**
 - The **servers** are where data is being **sent** and/or **retrieved**
@@ -31,7 +31,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
 
-    
+
 #### A wallet object should look like the following:
 - Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
 
@@ -73,7 +73,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
       }
   
       @RequestMapping(/createAccount)
-	       public void createAccount(@RequestParams){
+	       public void createAccount(@RequestParams...){
           /* - this method should provide the formatted payload that the Ripple API recognizes
              - once the payload is passed in the Ripple API will connect to the server and return the 
              corresponding response to this endpoint.
@@ -82,7 +82,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
 
 
       @RequestMapping(/createEscrow)
-	       public void createEscrow(@RequestParams){
+	       public void createEscrow(@RequestParams...){
           /* - this method should provide the formatted payload that the Ripple API recognizes
              - once the payload is passed in the Ripple API will connect to the server and return the 
              corresponding response to this endpoint.
@@ -90,7 +90,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
   	}
 
       @RequestMapping(/send)
-      public void sendTransactions(@RequestParams){
+      public void sendTransactions(@RequestParams...){
       /* - this method should provide the formatted payload that the Ripple API recognizes
       - once the payload is passed in the Ripple API will connect to the server and return the
       corresponding response to this endpoint.
@@ -98,7 +98,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
       }
   
       @RequestMapping(/receive)
-      public void receiveTransactions(@RequestParams){
+      public void receiveTransactions(@RequestParams...){
       /* - this method should provide the formatted payload that the Ripple API recognizes
       - once the payload is passed in the Ripple API will connect to the server and return the
       corresponding response to this endpoint.
@@ -120,9 +120,9 @@ with WebSocket API tools, public servers and more.]**
   - server locations/hostnames
   - security connections/protocols, if required here
   - logger files to capture the behavior of the application
-- Ensure the Security Protocols are properly enabled  
-
-#### Security 
+- Ensure the Security Protocols are properly enabled
+  - 
+#### Security
 - the wallet may need a private key field as its primary identifier when interacting with the XRP Ledger, rather than a username/password combination
   **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a
   unique token/private key to be generated.]**

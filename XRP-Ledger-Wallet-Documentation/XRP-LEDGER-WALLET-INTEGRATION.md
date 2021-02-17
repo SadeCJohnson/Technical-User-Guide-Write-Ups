@@ -21,7 +21,7 @@ User Interface Interaction is like, to gain a full scope of the connections bein
 #### Questions to consider:
 
 * What Digital Wallet does XRP currently use in order to perform transactions?
-    * What system will XRP be replacing once the Native XRP Wallet is created?
+    * What system will XRP be replacing once the Native XRP Wallet is created?  
     * How does the current digital wallet system work?  
     * What APIs do XRP expose to this digital wallet system for actions to be performed?    
         * What type of authentication is required to access the XRP Ledger?
