@@ -33,7 +33,6 @@ The tools required for setting up the developer workstation is <span style="colo
 familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along 
 with WebSocket API tools, public servers and more.]**
 - Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
-  - the wallet may need a private key field as its primary identifier when interacting with 
   the XRP Ledger, rather than a username/password combination
     
 #### A simple wallet object should look like the following:
@@ -59,12 +58,18 @@ with WebSocket API tools, public servers and more.]**
 - these functions should perform the necessary actions required to allow for the interaction between the Wallet and the XRP Ledger.
 
 ### Other requirements:
+#### Infrastructure
 - Create environment specific configurations which includes:
   - port #s
   - server locations/hostnames
   - security connections/protocols, if required here
   - logger files to capture the behavior of the application
 - Ensure the Security Protocols are properly enabled  
+
+#### Security 
+- the wallet may need a private key field as its primary identifier when interacting with
+
+
 
 #### Resources
 - Tech Stack Diagram Can be [here](https://xrpl.org/img/ecosystem.svg).
