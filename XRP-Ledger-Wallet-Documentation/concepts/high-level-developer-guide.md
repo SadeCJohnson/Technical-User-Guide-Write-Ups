@@ -132,10 +132,10 @@ with WebSocket API tools, public servers and more.]**
 #### Resources
 - Tech Stack Diagram Can be [here](https://xrpl.org/img/ecosystem.svg).
 - Click [here](https://spring.io/guides/gs/rest-service/) for guidance on creating a RESTful Web Service in **Java**.
-- Curious about any of the following? Click [here](https://xrpl.org/get-started-with-the-rippled-api.html)
+- Curious about any of the following? Click [here](https://xrpl.org/get-started-with-the-rippled-api.html).
   - sample payload
   - sample response
-  - makeup of the objects that a wallet holds.
+  - makeup of the objects that a wallet holds
 
 
 
