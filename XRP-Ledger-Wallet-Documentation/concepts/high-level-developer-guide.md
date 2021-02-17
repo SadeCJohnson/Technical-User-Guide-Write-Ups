@@ -93,25 +93,20 @@ The tools required for setting up the developer workstation is <span style="colo
       */
       }
   }       
-        
-- Each endpoint will need to be mapped to a service that corresponds to the XRP Ledger's functionality (i.e. send transactions, receive transactions)
-- The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint
+#### Important Notes:      
+- Each endpoint will need to be mapped to a service that corresponds to the Ripple API (i.e. send transactions, receive transactions) - which connects to the XRP Leedger 
+- The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint of the Ripple API, so the right response can be returned
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/middleware-api-level.png "Middleware API Connections Happens Here")
-**[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to
-familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along
-with WebSocket API tools, public servers and more.]**
-   
-   **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a 
-    unique token/private key to be generated.]** 
 
-- An intermediary class will need to be created to implement the function logic since that info may be abstracted from the controller
-  
-  **[Provide a Visual example]**
-- these functions should perform the necessary actions required to allow for the interaction between the Wallet and the XRP Ledger.
+
 
 ### Other requirements:
 #### Infrastructure
+**[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to
+familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along
+with WebSocket API tools, public servers and more.]**
+
 - Create environment specific configurations which includes:
   - port #s
   - server locations/hostnames
@@ -121,12 +116,18 @@ with WebSocket API tools, public servers and more.]**
 
 #### Security 
 - the wallet may need a private key field as its primary identifier when interacting with the XRP Ledger, rather than a username/password combination
+  **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a
+  unique token/private key to be generated.]**
 
 
 
 #### Resources
 - Tech Stack Diagram Can be [here](https://xrpl.org/img/ecosystem.svg).
 - Click [here](https://spring.io/guides/gs/rest-service/) for guidance on creating a RESTful Web Service in **Java**.
+- Curious about any of the following? Click [here](https://xrpl.org/get-started-with-the-rippled-api.html)
+  - sample payload
+  - sample response
+  - makeup of the objects that a wallet holds
 
 
 
