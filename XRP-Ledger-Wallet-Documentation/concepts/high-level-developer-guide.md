@@ -135,7 +135,7 @@ with WebSocket API tools, public servers and more.]**
 - Curious about any of the following? Click [here](https://xrpl.org/get-started-with-the-rippled-api.html)
   - sample payload
   - sample response
-  - makeup of the objects that a wallet holds
+  - makeup of the objects that a wallet holds.
 
 
 
