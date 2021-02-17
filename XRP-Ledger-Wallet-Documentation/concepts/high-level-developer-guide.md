@@ -27,7 +27,7 @@ The tools required for setting up the developer workstation is <span style="colo
 
 ## Suggested High Level Integration Steps:
 
-**To start creating the Native XRP Ledger Wallet, we will need to start working at the Apps & Services level**
+**To start creating the Native XRP Ledger Wallet, we will need to work at the Apps & Services level**
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
 
