@@ -28,7 +28,7 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
     - Printed out on paper
     - considered unreliable
 
-![](/resources/visuals/ledger-live-demo.png "Ledger Live Demo Snippet")
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/ledger-live-demo.png "Ledger Live Demo Snippet")
 
 #### Picture Notes:
 - The Software Wallet can be seen on the screen of the phone depicted in the photo.
