@@ -38,7 +38,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
 
 #### However, a wallet consists of other objects and methods (depicted below):
-- The supporting objects and method functionality must also be created
+- Accordingly, the supporting objects and method functionality must also be created
 
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-updated.png)
