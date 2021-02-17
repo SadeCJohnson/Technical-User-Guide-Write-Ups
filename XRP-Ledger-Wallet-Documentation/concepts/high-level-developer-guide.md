@@ -38,7 +38,7 @@ with WebSocket API tools, public servers and more.
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
 
 #### However, a wallet consists of other objects like so:
-![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-objects.png)
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-object.png)
 
 
 
