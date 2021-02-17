@@ -23,16 +23,14 @@ The tools required for setting up the developer workstation is <span style="colo
 - The **Ripple API** then makes the connections to the **XRP Ledger**, which interacts with the **servers**
 - The **servers** are where data is being **sent** and/or **retrieved**
 
-**To create the Native XRP Ledger Wallet, we will be working at the Apps & Services level**
-
-![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
 
 
 ## Suggested High Level Integration Steps:
-**[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to 
-familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along 
-with WebSocket API tools, public servers and more.]**
- 
+
+**To start creating the Native XRP Ledger Wallet, we will need to start working at the Apps & Services level**
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
+
     
 #### A simple wallet object should look like the following:
 - Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
@@ -51,7 +49,9 @@ with WebSocket API tools, public servers and more.]**
     - The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Middleware API Connections Happens Here")
-
+**[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to
+familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along
+with WebSocket API tools, public servers and more.]**
    
    **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a 
     unique token/private key to be generated.]** 
