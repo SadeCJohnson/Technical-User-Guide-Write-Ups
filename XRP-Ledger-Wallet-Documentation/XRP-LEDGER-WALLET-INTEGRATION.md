@@ -29,7 +29,7 @@ User Interface Interaction is like, to gain a full scope of the connections bein
     
 #### High Level Visual for Wallet and XRP Ledger Interaction:
 
-![alt text](/resources/visuals/high-level-ledger-interaction.png "High Level Visual Concept")
+![alt text](/XRP-Ledger-Wallet-Documentation/resources/visuals/high-level-ledger-interaction.png "High Level Visual Concept")
     
 
 ## Technical Requirements:
