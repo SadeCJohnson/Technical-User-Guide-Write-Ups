@@ -45,9 +45,56 @@ The tools required for setting up the developer workstation is <span style="colo
 
 ####  Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
 - This step will set-up the endpoints that need to be in place
-  ex: 
-  - A Wallet API may need to be created as such **/Wallet**
-    -       
+  ex:
+  ````
+     import org.springframework.web.bind.annotation.GetMapping;
+     import org.springframework.web.bind.annotation.RequestParam;
+     import org.springframework.web.bind.annotation.RestController;
+
+      @RestController
+      @RequestMapping(/XRPWallet)
+      public class XRPLedgerWallet {
+	   
+      //Controller
+      public XRPLedgerWallet(@RequestParams...){
+         //Include attributes/objects required for the wallet
+      }
+  
+      @RequestMapping(/createAccount)
+	       public void createEscrow(@RequestParams){
+          /* - this method should provide the formatted payload that the Ripple API recognizes
+             - once the payload is passed in the Ripple API will connect to the server and return the 
+             corresponding response to this endpoint.
+          */
+  	}
+
+
+      @RequestMapping(/createEscrow)
+	       public void createEscrow(@RequestParams){
+          /* - this method should provide the formatted payload that the Ripple API recognizes
+             - once the payload is passed in the Ripple API will connect to the server and return the 
+             corresponding response to this endpoint.
+          */
+  	}
+
+      @RequestMapping(/send)
+      public void sendTransactions(@RequestParams){
+      /* - this method should provide the formatted payload that the Ripple API recognizes
+      - once the payload is passed in the Ripple API will connect to the server and return the
+      corresponding response to this endpoint.
+      */
+      }
+  
+      @RequestMapping(/receive)
+      public void sendTransactions(@RequestParams){
+      /* - this method should provide the formatted payload that the Ripple API recognizes
+      - once the payload is passed in the Ripple API will connect to the server and return the
+      corresponding response to this endpoint.
+      */
+      }
+  
+
+}       
         
 - Each endpoint will need to be mapped to a service that corresponds to the XRP Ledger's functionality (i.e. send transactions, receive transactions)
 - The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint
