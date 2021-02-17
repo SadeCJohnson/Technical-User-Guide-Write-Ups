@@ -25,7 +25,7 @@ The tools required for setting up the developer workstation is <span style="colo
 
 **To create the Native XRP Ledger Wallet, we will be working at the Apps & Services level**
 
-![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png)
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Model/Class Creation Happens Here")
 
 
 ## Suggested High Level Integration Steps:
@@ -45,10 +45,13 @@ with WebSocket API tools, public servers and more.]**
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-updated.png)
 
 
--  Include Controllers to perform the API Connections
+-  Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
     - This step will set-up the endpoints that need to be in place
     - Each endpoint will need to be mapped to a service that corresponds to the XRP Ledger's functionality (i.e. send transactions, receive transactions)
     - The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png "Middleware API Connections Happens Here")
+
    
    **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a 
     unique token/private key to be generated.]** 
