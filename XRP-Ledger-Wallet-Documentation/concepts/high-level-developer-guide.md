@@ -73,7 +73,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
       }
   
       @RequestMapping(/createAccount)
-	       public void createEscrow(@RequestParams){
+	       public void createAccount(@RequestParams){
           /* - this method should provide the formatted payload that the Ripple API recognizes
              - once the payload is passed in the Ripple API will connect to the server and return the 
              corresponding response to this endpoint.
@@ -98,7 +98,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
       }
   
       @RequestMapping(/receive)
-      public void sendTransactions(@RequestParams){
+      public void receiveTransactions(@RequestParams){
       /* - this method should provide the formatted payload that the Ripple API recognizes
       - once the payload is passed in the Ripple API will connect to the server and return the
       corresponding response to this endpoint.
