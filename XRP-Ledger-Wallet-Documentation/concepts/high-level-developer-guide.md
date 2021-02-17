@@ -45,6 +45,10 @@ The tools required for setting up the developer workstation is <span style="colo
 
 ####  Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
 - This step will set-up the endpoints that need to be in place
+  ex: 
+  - A Wallet API may need to be created as such **/Wallet**
+    -       
+        
 - Each endpoint will need to be mapped to a service that corresponds to the XRP Ledger's functionality (i.e. send transactions, receive transactions)
 - The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint
 
@@ -77,6 +81,7 @@ with WebSocket API tools, public servers and more.]**
 
 #### Resources
 - Tech Stack Diagram Can be [here](https://xrpl.org/img/ecosystem.svg).
+- Click [here](https://spring.io/guides/gs/rest-service/) for guidance on creating a RESTful Web Service in **Java**.
 
 
 
