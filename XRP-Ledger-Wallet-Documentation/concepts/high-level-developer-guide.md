@@ -32,10 +32,10 @@ The tools required for setting up the developer workstation is <span style="colo
 **[Please refer to the [XRP Ledger API Documentation](https://xrpl.org/get-started-with-the-rippled-api.html) to 
 familiarize yourself with [rippled](https://xrpl.org/the-rippled-server.html), **XRP Ledger's core server software**, along 
 with WebSocket API tools, public servers and more.]**
-- Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
  
     
 #### A simple wallet object should look like the following:
+- Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
 
