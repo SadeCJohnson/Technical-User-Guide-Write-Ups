@@ -33,9 +33,13 @@ with WebSocket API tools, public servers and more.
   - the wallet may need a private key field as its primary identifier when interacting with 
   the XRP Ledger, rather than a username/password combination
     
-#### A wallet object should look like the following:
+#### A simple wallet object should look like the following:
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
+
+#### However, a wallet consists of other objects like so:
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-objects.png)
+
 
 
 -  Include Controllers to perform the API Connections
