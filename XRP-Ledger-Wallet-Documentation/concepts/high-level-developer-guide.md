@@ -23,6 +23,9 @@ The tools required for setting up the developer workstation is <span style="colo
 - The **Ripple API** then makes the connections to the **XRP Ledger**, which interacts with the **servers**
 - The **servers** are where data is being **sent** and/or **retrieved**
 
+**To create the Native XRP Ledger Wallet, we will be working at the Apps & Services level**
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/application-level.png)
 
 
 ## Suggested High Level Integration Steps:
