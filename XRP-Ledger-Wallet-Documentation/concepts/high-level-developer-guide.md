@@ -45,7 +45,7 @@ The tools required for setting up the developer workstation is <span style="colo
 
 ####  Once all of our **models/classes** are created, we will need to perform the API Connections to accomplish this **Middleware APIs** Step
 - This step will set-up the endpoints that need to be in place
-  ex:
+
   ```java
      import org.springframework.web.bind.annotation.GetMapping;
      import org.springframework.web.bind.annotation.RequestParam;
