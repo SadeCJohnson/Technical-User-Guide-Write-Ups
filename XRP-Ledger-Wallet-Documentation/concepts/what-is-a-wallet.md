@@ -1,7 +1,9 @@
 # What is a Wallet?
 
 ## Background
-A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger**.
+A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger**. Please find a visual depiction of a what the **inside** of a wallet looks like:
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-depiction.png "Wallet Depiction")
 
 ### There are 3 types of crypto wallets
 1. Hardware Wallets
