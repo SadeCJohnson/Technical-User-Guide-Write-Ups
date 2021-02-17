@@ -13,7 +13,7 @@ The tools required for setting up the developer workstation is <span style="colo
 ## Ripple's Software EcoSystem Tech Stack Representation:
 
 
-![alt text](/resources/visuals/xrp-tech-stack-level.png)
+![alt text](/XRP-Ledger-Wallet-Documentation/resources/visuals/xrp-tech-stack-level.png)
 
 #### What does the above photo mean?
 **Here's one Translation:**
