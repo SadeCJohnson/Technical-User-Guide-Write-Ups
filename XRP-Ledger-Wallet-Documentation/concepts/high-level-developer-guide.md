@@ -32,7 +32,13 @@ with WebSocket API tools, public servers and more.
 - Create a [Wallet](/XRP-Ledger-Wallet-Documentation/concepts/what-is-a-wallet.md) **model/class** in your project with the associated properties
   - the wallet may need a private key field as its primary identifier when interacting with 
   the XRP Ledger, rather than a username/password combination
--  Create Controllers to perform the API Connections
+    
+#### A wallet object should consist of the following:
+
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
+
+
+-  Include Controllers to perform the API Connections
     - This step will set-up the endpoints that need to be in place
     - Each endpoint will need to be mapped to a service that corresponds to the XRP Ledger's functionality (i.e. send transactions, receive transactions)
     - The controller will need to pass the necessary headers to the XRP Ledger when trying to successfully connect to each endpoint

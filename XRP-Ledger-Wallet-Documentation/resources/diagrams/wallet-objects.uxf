@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>180</y>
+      <w>170</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Software Wallet 
+_(Hot Wallet)_
+--
+**Account**
+
+**Send**
+
+**Receive**
+
+**Trade**
+
+**Escrow**</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>180</y>
+      <w>220</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Hardware Wallet
+_(Cold Wallet)_
+--
+**Stores User private Key**
+
+**Makes transactions online**</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>180</y>
+      <w>250</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>_Paper Wallet_
+--
+- physical copy/print out of public
+and private keys
+
+- piece of software used to 
+securely generate a pair of keys
+that are printed.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
