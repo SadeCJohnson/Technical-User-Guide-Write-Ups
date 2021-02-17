@@ -39,9 +39,10 @@ with WebSocket API tools, public servers and more.]**
 
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/Software-Wallet-Object.png)
 
-#### However, a wallet consists of other objects like so:
-![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-updated.png)
+#### However, a wallet consists of other objects (depicted below):
+- Therefore, the supporting objects must also be created
 
+![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-payment-updated.png)
 
 
 -  Include Controllers to perform the API Connections
