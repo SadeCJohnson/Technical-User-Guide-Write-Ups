@@ -27,7 +27,7 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
         - stores a small amount of cryptos at a time
     
     
-3. Paper Wallets
+3. **Paper Wallets** 
     - Printed out on paper
     - considered unreliable
 
