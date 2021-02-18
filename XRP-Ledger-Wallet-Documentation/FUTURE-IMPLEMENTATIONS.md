@@ -14,3 +14,5 @@
     - What steps do they need to take to prepare for this change?
 - Indicate that the developer should connect directly to the **Ripple API** to access the XRP Ledger, rather than via
 a Middleware API (per the [EcoSystem Tech Stack Diagram](/XRP-Ledger-Wallet-Documentation/resources/visuals/xrp-tech-stack-level.png))
+- Include a section that specifies how the developer can build their SDK from a Github Source
+  - Also need to include the required developer tools so they'll understand how exactly to get started.
