@@ -126,7 +126,8 @@ with WebSocket API tools, public servers and more.]**
    
 #### Security
 - the wallet may need a private key field as its primary identifier when interacting with the XRP Ledger, rather than a username/password combination
-  **[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a
+  
+**[Note: In order to be authorized to connect to the endpoints, a user would first need to create an account in order for a
   unique token/private key to be generated.]**
 
 
