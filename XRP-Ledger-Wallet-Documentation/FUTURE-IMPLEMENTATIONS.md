@@ -10,5 +10,7 @@
     - This will increase and maintain productivity; eliminating delays in release schedules.
 - Technical Writing Hotline information to maintain an open door policy to ensure that concerns are being
   addressed in a timely manner.
-- Discuss the **Customer Impact** as a result of the introduction of the **Native XRP Ledger Wallet**.
+- Discuss the **Customer Impact** as a result of the introduction of the **Native XRP Ledger Wallet**. 
     - What steps do they need to take to prepare for this change?
+- Indicate that the developer should connect directly to the **Ripple API** to access the XRP Ledger, rather than via
+a Middleware API (per the [EcoSystem Tech Stack Diagram](/resources/visuals/xrp-tech-stack-level.png))
