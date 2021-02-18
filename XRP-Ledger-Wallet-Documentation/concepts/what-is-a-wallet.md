@@ -6,14 +6,14 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
 ![](/XRP-Ledger-Wallet-Documentation/resources/visuals/wallet-depiction.png "Wallet Depiction")
 
 ### There are 3 types of crypto wallets
-1. Hardware Wallets
-    - Also known as Cold Wallets since they're stored **offline**
+1. **Hardware Wallets**
+    - Also known as **Cold Wallets** since they're stored **offline**
     - More Secure 
     - Used for long-term holdings
       - can securely store a large amount of cryptos at a time
       - if this device is misplaced/stolen, the money will be **lost** 
     - Resembles a USB (refer to the picture below)
-    - Can be connected to PC and accessed by native desktop apps
+    - Can be connected to a PC and accessed by native desktop apps
 
       
 
