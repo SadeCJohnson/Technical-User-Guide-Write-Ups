@@ -133,7 +133,7 @@ unique token/private key to be generated.]**
 
 
 
-#### Resources
+### Resources
 - Tech Stack Diagram Can be [here](https://xrpl.org/img/ecosystem.svg).
 - Click [here](https://spring.io/guides/gs/rest-service/) for guidance on creating a RESTful Web Service in **Java**.
 - Curious about any of the following? Click [here](https://xrpl.org/get-started-with-the-rippled-api.html).
