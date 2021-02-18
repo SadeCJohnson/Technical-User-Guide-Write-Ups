@@ -15,12 +15,14 @@ The tools required for setting up the developer workstation are <span style="col
 
 ![alt text](/XRP-Ledger-Wallet-Documentation/resources/visuals/xrp-tech-stack-level.png)
 
-#### What does the above photo mean?
-**Here's one Translation:**
-- There are **applications/services** created
-- These **applications/services** are configured to interact with **Middleware APIs**
-- The **Middleware APIs** are configured to interact with the **Ripple API** (which works with Programming Libraries)
-- The **Ripple API** then makes the connections to the **XRP Ledger**, which interacts with the **servers**
+#### Photo Explained...?
+- **Applications/Services** are created
+    - Objects are created and defined 
+    - Actions are created
+- **Applications/Services** are then configured to interact with either: 
+    - the **Middleware APIs**, which connects to the **Ripple API** , or
+    - directly to the **Ripple API**
+- **Ripple API** is configured to interact (or establish connections) with the **XRP Ledger**, which interacts with the **servers**
 - The **servers** are where data is being **sent** and/or **retrieved**
 
 
@@ -64,7 +66,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
      import org.springframework.web.bind.annotation.RestController;
 
       @RestController
-      @RequestMapping(/XRPWallet)
+      @RequestMapping("/XRPWallet")
       public class XRPLedgerWallet {
 	   
       //Controller
@@ -72,7 +74,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
          //Include attributes/objects required for the wallet
       }
   
-      @RequestMapping(/createAccount)
+      @RequestMapping("/createAccount")
 	       public void createAccount(@RequestParams...){
           /* - this method should provide the formatted payload that the Ripple API recognizes
              - once the payload is passed in the Ripple API will connect to the server and return the 
@@ -81,7 +83,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
   	}
 
 
-      @RequestMapping(/createEscrow)
+      @RequestMapping("/createEscrow")
 	       public void createEscrow(@RequestParams...){
           /* - this method should provide the formatted payload that the Ripple API recognizes
              - once the payload is passed in the Ripple API will connect to the server and return the 
@@ -89,7 +91,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
           */
   	}
 
-      @RequestMapping(/send)
+      @RequestMapping("/send")
       public void sendTransactions(@RequestParams...){
       /* - this method should provide the formatted payload that the Ripple API recognizes
       - once the payload is passed in the Ripple API will connect to the server and return the
@@ -97,7 +99,7 @@ To start creating the Native XRP Ledger Wallet, we will need to work at the Apps
       */
       }
   
-      @RequestMapping(/receive)
+      @RequestMapping("/receive")
       public void receiveTransactions(@RequestParams...){
       /* - this method should provide the formatted payload that the Ripple API recognizes
       - once the payload is passed in the Ripple API will connect to the server and return the
