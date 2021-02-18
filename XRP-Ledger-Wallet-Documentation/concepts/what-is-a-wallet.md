@@ -17,7 +17,8 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
 
       
 
-2. Software Wallets, or Hot Wallets
+2. **Software Wallets**
+    - Also known as **Hard Wallets**
     - Requires internet connectivity 
       - therefore, this wallet type is **less** secure
     - Convenient
