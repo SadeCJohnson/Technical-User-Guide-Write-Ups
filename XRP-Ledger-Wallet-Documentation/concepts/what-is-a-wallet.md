@@ -36,7 +36,7 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
 #### Picture Notes:
 - The **Software Wallet** can be seen on the screen of the phone depicted in the photo.
 - The **Hardware Wallet** is depicted by the **Ledger** placed in the foreground of the photo.
-- Because this wallet type is considered to be obsolete, it is **not** depicted in the photo.
+- Because the **Paper** wallet type is considered to be obsolete, it is **not** depicted in the photo.
 
 ### How do Crypto Wallets work?
 
