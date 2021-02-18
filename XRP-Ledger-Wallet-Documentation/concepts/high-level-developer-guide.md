@@ -16,10 +16,10 @@ The tools required for setting up the developer workstation are <span style="col
 ![alt text](/XRP-Ledger-Wallet-Documentation/resources/visuals/xrp-tech-stack-level.png)
 
 #### Photo Explained...?
-- **Applications/Services** are created
+- **Applications & Services** are created
     - Objects are created and defined 
     - Actions are created
-- **Applications/Services** are then configured to interact with either: 
+- **Applications & Services** are then configured to interact with either: 
     - the **Middleware APIs**, which connects to the **Ripple API** , or
     - directly to the **Ripple API**
 - **Ripple API** is configured to interact (or establish connections) with the **XRP Ledger**, which interacts with the **servers**
