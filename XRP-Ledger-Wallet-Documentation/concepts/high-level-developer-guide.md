@@ -15,7 +15,7 @@ The tools required for setting up the developer workstation are <span style="col
 
 ![alt text](/XRP-Ledger-Wallet-Documentation/resources/visuals/xrp-tech-stack-level.png)
 
-#### Photo Explained...?
+#### Photo Explained...
 - **Applications & Services** are created
     - Objects are created and defined 
     - Actions are created
