@@ -15,13 +15,13 @@ Developers
 ### Understanding the Frontend Via the User Experience:
 #### View Tutorial:
 * To better understand what the user experience consists of, please take some time to review the [XRP Toolkit tutorial](https://docs.xrptoolkit.com/user-interface-overview) that demonstrates what the 
-User Interface Interaction is like, to gain a full scope of the connections being made on the **frontend** side. This information can then be used to visualize the connections that need to be made on the **backend** side.
+User Interface Interaction is like, to gain a full scope of the connections being made on the **frontend**. This information can then be used to visualize the connections that need to be made on the **backend**.
 
 ### Understanding the Backend Features:
 #### Questions to consider:
 
 * What Digital Wallet does XRP currently use in order to perform transactions?
-    * What system will XRP be replacing once the Native XRP Wallet is created?  
+    * What system will XRP be replacing once the Native XRP Ledger Wallet is created?  
     * How does the current digital wallet system work?  
     * What APIs do XRP expose to this digital wallet system for actions to be performed?    
         * What type of authentication is required to access the XRP Ledger?
