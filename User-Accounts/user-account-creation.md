@@ -3,7 +3,7 @@
 ## Scope:
 To learn how to become an account owner, the linked tutorial will provide the procedural steps to 
 creating a Firefox User Account. 
-* Tune into my **firefox-account-user-experience** channel https://discord.gg/Ewz5y3UZXZ to see the step-by-step user guide.
+* Tune into my [**firefox-account-user-experience**](https://discord.gg/Ewz5y3UZXZ) channel to see the step-by-step user guide.
 
 ## Audience:
 * Users looking to become a Firefox account owner via the creation of said account.
