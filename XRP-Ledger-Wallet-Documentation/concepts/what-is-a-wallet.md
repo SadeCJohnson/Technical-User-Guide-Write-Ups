@@ -48,11 +48,11 @@ A **Wallet** is A Critical Component of Developing Software for The **XRP Ledger
   
 #### Information: <a name="info"></a>
 
-- private key
+- **private key**
   - should **never** be shared
   - can be used on any wallet for accessing the crypto
   - by knowing this key, one will be able to access the corresponding funds on any device 
-- public keys
+- **public keys**
 - based on the keys, an alphanumeric identifier **address** is generated
    - the **address**:
      - specifies the location which coins can be sent to the blockchain
