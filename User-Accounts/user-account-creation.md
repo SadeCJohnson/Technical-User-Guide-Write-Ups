@@ -20,7 +20,7 @@ creating a Firefox User Account.
 
 ### Use Case UML:
 
-![alt text](/User-Accounts/visual-resources/uml-diagrams/use-case-diagram/Use-Case-UML.png "Diagram Type: Use Case UML")
+![alt text](/User-Accounts/User-Accounts/resources/use-case-diagram/Use-Case-UML.png "Diagram Type: Use Case UML")
 
 
 ## Future Implementation:
