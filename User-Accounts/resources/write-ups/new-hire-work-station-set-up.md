@@ -1,4 +1,4 @@
-# Creating New Hire Workstation
+# Creating The New Hire Workstation
 
 ### Scope
 This document will walk you through the process of **creating folders** for new hires, **managing folder permissions**
