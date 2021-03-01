@@ -16,4 +16,5 @@ This document will walk you through the process of creating user profiles for ne
 
 ### Process
 1. Launch the terminal
-![alt text](/User-Accounts/resources/visual-steps/terminal-launch.mp4 "Terminal Launch")
+![alt text](/User-Accounts/resources/visual-steps/terminal-launch.mp4    )
+   <a src="/User-Accounts/resources/visual-steps/terminal-launch.mp4"></a>
