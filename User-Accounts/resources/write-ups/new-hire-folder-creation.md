@@ -1,7 +1,7 @@
 # Creating Mandatory Folder Structures For New Hires
 
 ### Scope
-This document will walk you through the process of **creating folders** for new hires, **managing these permissions**
+This document will walk you through the process of **creating folders** for new hires, **managing folder permissions**
 and **installing applications** via the **terminal**.
 
 ### Audience
