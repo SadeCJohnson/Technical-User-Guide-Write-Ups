@@ -1,4 +1,4 @@
-# Creating A User Account Via the Terminal
+# Creating Mandatory Folder Structures For New Hires
 
 ### Scope:
 This document will walk you through the process of creating folders for new hires, managing these permissions
