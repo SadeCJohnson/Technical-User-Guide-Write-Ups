@@ -121,7 +121,7 @@ productivity, apps will need to be installed as follows:
 
 ![App Installation](/User-Accounts/resources/visual-steps/app-installation-6.gif)
 
-**All tools installed on the admin account, will also be reflected under the new hire account profiles since the new hires will
+**All tools installed on the admin account, will also be reflected under the new hire account profiles, since the new hires will
 inherit the properties of the system admin parent account.**
 
    
