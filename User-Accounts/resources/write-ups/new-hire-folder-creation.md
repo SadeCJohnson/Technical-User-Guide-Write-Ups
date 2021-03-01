@@ -1,13 +1,13 @@
 # Creating Mandatory Folder Structures For New Hires
 
-### Scope:
+### Scope
 This document will walk you through the process of **creating folders** for new hires, **managing these permissions**
 and **installing applications** via the **terminal**.
 
-### Audience:
+### Audience
 * System Administrators 
 
-### Tools Required:
+### Tools Required
 * Terminal
 * Familiarity with *nix(Linux/Unix) commands 
 * New Hire Information
@@ -17,8 +17,8 @@ and **installing applications** via the **terminal**.
 
 **Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement**
 
-### Process:
-#### Creating mandatory folders
+### Process
+#### Creating mandatory folders:
 1. Launch the terminal:
 
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
@@ -48,7 +48,7 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
 ![Folder Creation](/User-Accounts/resources/visual-steps/folder-creation.gif)
 
 
-#### Managing permissions
+#### Managing permissions:
 
 1. Type the following command into the **terminal prompt** to view the initial **permissions** granted to the new hire mandatory 
 folders
@@ -74,14 +74,33 @@ Running the **ls -l** command at the end will verify that the **permissions** ha
 
 ![Managing Permissions](/User-Accounts/resources/visual-steps/manage-permissions-2.gif)
 
-    
+
+#### App installation:
+
+1. New Hires will need to have the right developer tools on their workstations to be productive. To ensure
+productivity, apps will need to be installed as follows:
+   
+**Note: The app to be installed for this demonstration will be  **handbrake**, a video editing tool.**
+
+```
+    sudo apt-get install handbrake
+
+```
+
+![App Installation](/User-Accounts/resources/visual-steps/app-installation-6.gif)
+
+**All tools installed on the admin account, will also be reflected under the new hire account profiles since the new hires will
+inherit the properties of the system admin parent account.**
+
    
 
 
+
+
     
 
 
-### Future Implementation:
+### Future Implementation
 
 1. Include steps to **verify app versions** to ensure consistency
 2. Include steps to **update apps** to ensure the latest tools are being used
