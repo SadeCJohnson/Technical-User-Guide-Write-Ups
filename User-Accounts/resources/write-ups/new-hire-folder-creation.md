@@ -1,8 +1,8 @@
 # Creating Mandatory Folder Structures For New Hires
 
 ### Scope:
-This document will walk you through the process of creating folders for new hires, managing these permissions
-and installing applications via the **terminal**.
+This document will walk you through the process of **creating folders** for new hires, **managing these permissions**
+and **installing applications** via the **terminal**.
 
 ### Audience:
 * System Administrators 
@@ -28,7 +28,8 @@ and installing applications via the **terminal**.
 * **work-resource**
     * This directory will hold all important work documents, including tax information, HR references, etc.
 * **hire-info**
-    * This directory will hold all onboarding information so the new hires will know how to get set-up on **day 1**.
+    * This directory will hold all onBoarding information to ensure new hires will have access to the documents instructing them 
+      on getting set-up on **day 1**.
     
 
 Accordingly, these directories will need to be created.
