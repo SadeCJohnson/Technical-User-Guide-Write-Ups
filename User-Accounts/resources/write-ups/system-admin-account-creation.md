@@ -17,4 +17,4 @@ This document will walk you through the process of creating user profiles for ne
 ### Process
 1. Launch the terminal
 
-![Terminal Launch Process](https://github.com/SadeCJohnson/Technical-Write-Ups/blob/main/User-Accounts/resources/visual-steps/terminal-launch.mp4?raw=true)
+![](https://github.com/SadeCJohnson/Technical-Write-Ups/blob/main/User-Accounts/resources/visual-steps/terminal-launch.mp4?raw=true)
