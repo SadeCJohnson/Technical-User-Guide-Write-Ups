@@ -134,8 +134,8 @@ inherit the properties of the system admin parent account.**
 
 ### Future Implementation
 
-1. Include steps to **verify app versions** to ensure consistency
-2. Include steps to **update apps** to ensure the latest tools are being used
+1. Include steps to **verify app versions** to ensure workstation environment consistency.
+2. Include steps to **update apps** to ensure the latest tools are being used.
 
 **All implementations will come with the respective visuals to properly demonstrate how these tasks would be completed.** 
  
