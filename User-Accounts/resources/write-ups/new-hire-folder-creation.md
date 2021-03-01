@@ -18,11 +18,11 @@ and installing applications via the terminal.
 **Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement**
 
 ### Process:
-**1.** Launch the terminal:
+1. Launch the terminal:
 
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
 
-**2.** It is mandatory for all new hires to have the following directories under their profiles:
+2. It is mandatory for all new hires to have the following directories under their profiles:
     
 * **work-resource**
     * This directory will hold all important work documents, including tax information, HR references, etc.
