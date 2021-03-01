@@ -62,7 +62,7 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
 **OR** via:
 
 ```
-    ls -l sadecjohnson/; ls -l wizkhalifa
+    ls -l sadecjohnson/; ls -l wizkhalifa/
 ```
 
 6. To create the **hire-info** directory for **Camille Rose**, and the other new hires, type the following into the **terminal**:
@@ -73,7 +73,7 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
 7. Verify the creation of all new hire directories:
 
 ```
-    ls -l camillerose/; ls -l sadecjohnson; ls -l wizkhalifa
+    ls -l camillerose/; ls -l sadecjohnson/; ls -l wizkhalifa/
 ```
 
 
