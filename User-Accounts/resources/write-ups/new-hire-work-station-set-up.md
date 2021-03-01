@@ -83,7 +83,7 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
 #### Managing permissions:
 
 1. Type the following command into the **terminal prompt** to view the initial **permissions** granted to the new hire mandatory 
-folders
+folders:
    
 **Note: The following command will check all the file permissions in a single line**
    
