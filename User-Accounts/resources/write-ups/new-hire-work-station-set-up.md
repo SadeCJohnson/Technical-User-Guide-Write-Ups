@@ -25,7 +25,7 @@ and **installing applications** via the **terminal**.
 
 2. It is mandatory for all new hires to have the following directories under their profiles:
     
-* **work-resource**
+* **work-resources**
     * This directory will hold all important work documents, including tax information, HR references, etc.
 * **hire-info**
     * This directory will hold all onBoarding information to ensure new hires will have access to the documents instructing them 
