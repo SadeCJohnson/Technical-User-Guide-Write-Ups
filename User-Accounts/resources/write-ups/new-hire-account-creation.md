@@ -1,12 +1,12 @@
 # Creating User Profiles For New Hires 
 
-### Scope:
+### Scope
 This document will walk you through the process of creating user profiles for new hires via the **terminal**.
 
-### Audience:
+### Audience
 * System Administrators 
 
-### Tools Required:
+### Tools Required
 * Terminal
 * Familiarity with *nix(Linux/Unix) commands 
 * New Hire Information
@@ -14,7 +14,7 @@ This document will walk you through the process of creating user profiles for ne
 
 **Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement**
 
-### Process:
+### Process
  1. Launch the terminal:
 
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
