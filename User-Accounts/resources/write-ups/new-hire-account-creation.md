@@ -12,7 +12,7 @@ This document will walk you through the process of creating user profiles for ne
 * New Hire Information
 
 
-**Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement**
+**Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement.**
 
 ### Process
  1. Launch the terminal:
