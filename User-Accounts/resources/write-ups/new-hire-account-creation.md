@@ -27,7 +27,7 @@ This document will walk you through the process of creating user profiles for ne
     ls
     ```
     
-    b. Once you verify the user doesn't exist, type in **sudo addUser sadecjohnson**
+    b. Once you verify the user doesn't exist, type in **sudo addUser sadecjohnson** into the **terminal prompt.**
     ```
     sudo addUser sadecjohnson
     ```
