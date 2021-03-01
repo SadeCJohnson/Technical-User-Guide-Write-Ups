@@ -19,7 +19,7 @@ This document will walk you through the process of creating user profiles for ne
 
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
 
-**2.** Let's assume that you need to onboard new hires **Sade C Johnson**, **Camille Rose**, etc
+**2.** Let's assume that you need to onboard new hires "**Sade C Johnson**", "**Camille Rose**", etc
 
    **a.** You will need to type the  **ls** command into the **terminal prompt** to list the pre-existing users and ensure that the user doesn't  already exist.
  
