@@ -119,6 +119,9 @@ productivity, apps will need to be installed as follows:
 
 ```
 
+2. Enter the system administrator password.
+3. The specified app will successfully be installed.
+
 ![App Installation](/User-Accounts/resources/visual-steps/app-installation-6.gif)
 
 **All tools installed on the admin account, will also be reflected under the new hire account profiles, since the new hires will
