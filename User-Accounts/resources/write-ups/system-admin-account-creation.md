@@ -20,17 +20,18 @@ This document will walk you through the process of creating user profiles for ne
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
 
 2. Let's assume that you need to onboard new hires **Sade C Johnson**, **Camille Rose**, etc
+
  a. You will need to type the following commands into the terminal prompt:
  **ls** to ensure that the user has not already been added
  
-    ```
-      ls
-    ```
+   
+    ls
+   
  b. Once you verify the user doesn't exist, type in **sudo addUser sadecjohnson** 
  
-    ```
+    
     sudo addUser sadecjohnson
-    ```
+    
 
  c. Input the remaining user details to finalize the user profile creation step.
  
