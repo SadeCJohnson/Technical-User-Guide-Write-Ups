@@ -59,7 +59,7 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
     ls -l wizkhalifa/
 ```
 
-**OR** via
+**OR** via:
 
 ```
     ls -l sadecjohnson/; ls -l wizkhalifa
