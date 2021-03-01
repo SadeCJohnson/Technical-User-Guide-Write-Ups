@@ -1,14 +1,19 @@
 # Creating A User Account Via the Terminal
 
-## Scope:
+### Scope:
 This document will walk you through the process of creating user profiles for new hires via the terminal.
 
-## Audience:
+### Audience:
 * System Administrators 
 
-## Tools Required:
+### Tools Required:
 * Terminal
 * Familiarity with *nix(Linux/Unix) commands 
 * New Hire Information
 
-## Process
+
+**Note: These steps were executed on the Ubuntu Operating System - however this is not a requirement**
+
+### Process
+1. Launch the terminal
+![alt text](/User-Accounts/resources/visual-steps/terminal-launch.mp4 "Terminal Launch")
