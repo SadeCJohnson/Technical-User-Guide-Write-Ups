@@ -34,8 +34,9 @@ and **installing applications** via the **terminal**.
 
 Accordingly, these directories will need to be created.
 To create the **work-resources** directory for **Camille Rose**, type the following into the **terminal**:
-
+```
     sudo mkdir camillerose/work-resources
+```
 
 3. After the **work-resources** directory is created for **Camille Rose**, run the following command to verify that it exists:
 ```
@@ -43,7 +44,38 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
 ```
 
 
-4. After verifying the directory has successfully been created, the same process can be followed for additional new hires.
+4. After verifying the directory has successfully been created, the same process can be followed to create the **work-resources** directory for remaining new hires.
+```
+    sudo mkdir sadecjohnson/work-resources; sudo mkdir wizkhalifa/work-resources
+```
+
+5. Verify the creation of these directories via:
+
+```
+    ls -l sadecjohnson/
+```
+
+```
+    ls -l wizkhalifa/
+```
+
+**OR** via
+
+```
+    ls -l sadecjohnson/; ls -l wizkhalifa
+```
+
+6. To create the **hire-info** directory for **Camille Rose**, and the other new hires, type the following into the **terminal**:
+```
+    sudo mkdir camillerose/hire-info; sudo mkdir sadecjohnson/hire-info; sudo mkdir wizkhalifa/hire-info
+```  
+
+7. Verify the creation of all new hire directories:
+
+```
+    ls -l camillerose/; ls -l sadecjohnson; ls -l wizkhalifa
+```
+
 
 ![Folder Creation](/User-Accounts/resources/visual-steps/folder-creation.gif)
 
