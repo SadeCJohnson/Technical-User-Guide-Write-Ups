@@ -1,4 +1,4 @@
-# Creating Mandatory Folder Structures For New Hires
+# Creating New Hire Workstation
 
 ### Scope
 This document will walk you through the process of **creating folders** for new hires, **managing folder permissions**
