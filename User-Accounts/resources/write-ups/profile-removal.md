@@ -1,7 +1,7 @@
 # Removing User Profiles
 
 ### Scope
-This document will walk you through the process of **removing** a **user profile** in the case of employee termination (whether voluntary or mandatory).
+This document will walk you through the process of **removing** a **user profile** in the case of an employee termination (whether voluntary or mandatory).
 
 ### Audience
 * System Administrators
