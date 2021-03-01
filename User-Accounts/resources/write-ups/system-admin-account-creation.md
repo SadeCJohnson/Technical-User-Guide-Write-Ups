@@ -21,20 +21,20 @@ This document will walk you through the process of creating user profiles for ne
 
 2. Let's assume that you need to onboard new hires **Sade C Johnson**, **Camille Rose**, etc
 
- a. You will need to type the  **ls** command into the **terminal prompt** to list the pre-existing users and ensure that the user doesn not already exist.
+   a. You will need to type the  **ls** command into the **terminal prompt** to list the pre-existing users and ensure that the user doesn not  already exist.
  
    
     ls
    
- b. Once you verify the user doesn't exist, type in **sudo addUser sadecjohnson** 
+   b. Once you verify the user doesn't exist, type in **sudo addUser sadecjohnson** 
  
     
     sudo addUser sadecjohnson
     
 
- c. Input the remaining user details to finalize the user profile creation step.
+   c. Input the remaining user details to finalize the user profile creation step.
  
- d. Repeat these steps for additional new hire profiles that you wish to add.
+   d. Repeat these steps for additional new hire profiles that you wish to add.
  
  ![User Account Creation](/User-Accounts/resources/visual-steps/account-creation-6.gif)
  
