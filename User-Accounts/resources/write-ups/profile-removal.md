@@ -25,7 +25,7 @@ This document will walk you through the process of **removing** a **user profile
  ```
 3. Type the following command into the **terminal prompt** to remove the user:
 
-**In this case, we'll be removing user "**Wiz Khalifa**"
+**In this case, we'll be removing user "**Wiz Khalifa**"**
 
 ```
   sudo deluser --remove-home wizkhalifa
