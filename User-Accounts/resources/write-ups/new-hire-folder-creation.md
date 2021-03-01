@@ -46,12 +46,6 @@ To create the **work-resources** directory for **Camille Rose**, type the follow
     
 
 
- 
-   
- 
- ![User Account Creation]
- (/User-Accounts/resources/visual-steps/account-creation-6.gif)
-
 ### Future Implementation:
 1.Include steps to **verify app versions** to ensure consistency
 2 Include steps to **update apps** to ensure the latest tools are being used
