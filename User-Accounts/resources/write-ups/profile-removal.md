@@ -18,7 +18,7 @@ This document will walk you through the process of **removing** a **user profile
 
 ![Terminal Launch](/User-Accounts/resources/visual-steps/terminal-launch.gif)
 
-2. Type the  **ls** command into the **terminal prompt** to list the pre-existing users and ensure that the user you wish to remove is listed.
+2. Type the  **ls** command into the **terminal prompt** to list the pre-existing users and ensure that the user you wish to remove exists.
 
  ```
     ls
